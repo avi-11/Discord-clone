@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50vh;
+}
+
+.myPhoto{
+    height: 8rem;
+}
