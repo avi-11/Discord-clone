@@ -77,11 +77,50 @@ body{
     color: #fca311;
     text-shadow: 0px 3px 4px #043e74;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
 .job{
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 0.9rem;
     color: #b2b2b2;
+}
+
+.about{
+    background: #14213d;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+    grid-template-rows: 0.3fr 2.5fr 2fr;
+    padding: 1rem;
+    grid-row-gap: 0.5rem;
+}
+
+.head{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.head h3{
+    color: #fca311;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.img{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: url('myp.png') no-repeat center center/cover;
+}
+
+.knowMe{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.Me{
+    color: #f4f0f0;
 }
