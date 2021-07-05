@@ -90,6 +90,7 @@ body{
     background: #14213d;
     margin: 10px;
     border-radius: 2px;
+    margin-bottom: 2rem;
 }
 
 .info{
@@ -160,4 +161,87 @@ body{
 .resume i{
     line-height: 2rem;
     padding: 0px 5px 0px 10px;
+}
+
+.skills{
+    display: grid;
+    border-top: 2px solid #04152d;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 1fr 5fr 5fr 5fr;
+    grid-row-gap: 1rem;
+}
+
+.heading{
+    grid-column: 3/7;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #fca311;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.HTML{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #14213d;
+    height: 80%;
+    max-width: 10rem;
+    border: 1px solid #0038FF;
+    border-radius: 6px;
+    box-shadow: -3px 3px 4px #0038FF;
+}
+
+.box svg{
+    width: 80%;
+    position: relative;
+    left: 22px;
+    top: 25px;
+}
+
+.box svg circle{
+    width: 100%;
+    fill: none;
+    stroke-width: 6px;
+    stroke: #fca311;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+
+.box svg :nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #020913;
+}
+
+.box svg :nth-child(2){
+    stroke-dashoffset: 165;
+    stroke: #fca311;
+}
+
+.box h2{
+    position: relative;
+    bottom: 90px;
+    left: 45px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #f4f0f0;
+}
+
+.box h3{
+    font-size: 1.7rem;
+    text-align: center;
+    position: relative;
+    bottom: 1.5rem;
+    color: #f4f0f0;
 }
