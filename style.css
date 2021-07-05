@@ -171,6 +171,7 @@ body{
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: 1fr 5fr 5fr 5fr;
     grid-row-gap: 1rem;
+    border-bottom: 2px solid #04152d;
 }
 
 .heading{
@@ -219,12 +220,12 @@ body{
     stroke-linecap: round;
 }
 
-.box svg :nth-child(1){
+.box1 svg :nth-child(1){
     stroke-dashoffset: 0;
     stroke: #020913;
 }
 
-.box svg :nth-child(2){
+.box1 svg :nth-child(2){
     stroke-dashoffset: 165;
     stroke: #fca311;
 }
@@ -244,4 +245,75 @@ body{
     position: relative;
     bottom: 1.5rem;
     color: #f4f0f0;
+}
+
+.css{
+    grid-column: 5/10;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+.box2 svg :nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #020913;
+}
+
+.box2 svg :nth-child(2){
+    stroke-dashoffset: 190;
+    stroke: #fca311;
+}
+
+.js{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 svg :nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #020913;
+}
+
+.box3 svg :nth-child(2){
+    stroke-dashoffset: 205;
+    stroke: #fca311;
+}
+
+.design{
+    grid-column: 5/10;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 svg :nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #020913;
+}
+
+.box4 svg :nth-child(2){
+    stroke-dashoffset: 215;
+    stroke: #fca311;
+}
+
+.DSA{
+    grid-column: 3/7;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 svg :nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #020913;
+}
+
+.box5 svg :nth-child(2){
+    stroke-dashoffset: 205;
+    stroke: #fca311;
 }
